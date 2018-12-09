@@ -3,6 +3,7 @@
     <Intro v-bind:count="count" v-on:read-list-item="showSingleListItem"/>
     <ListAll v-on:read-list-item="showSingleListItem"/>
     <ListSingle v-bind:singleListItem="singleListItemData"/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@ var PrismicDOM = require("prismic-dom");
 import Intro from "./components/Intro";
 import ListAll from "./components/ListAll";
 import ListSingle from "./components/ListSingle";
+import Footer from "./components/Footer";
 import "./assets/js/main.js";
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     Intro,
     ListAll,
-    ListSingle
+    ListSingle,
+    Footer
   },
   data() {
     return {
