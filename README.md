@@ -1,41 +1,34 @@
-<<<<<<< HEAD
-# README #
+# README
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### How do I get set up?
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- Summary of set up
+- Configuration
+- Dependencies
+- Database configuration
+- How to run tests
+- Deployment instructions
 
-### How do I get set up? ###
+### Contribution guidelines
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+- Writing tests
+- Code review
+- Other guidelines
 
-### Contribution guidelines ###
+### Who do I talk to?
 
-* Writing tests
-* Code review
-* Other guidelines
+- Repo owner or admin
+- Other community or team contact
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-=======
 # vueapp
 
 > Testing VueCli
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -50,4 +43,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
->>>>>>> init commit
