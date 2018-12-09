@@ -1,0 +1,38 @@
+.list-item-card {
+  padding: $globalPadding $globalPadding $globalPadding * 7;
+  transition: transform 400ms ease-in-out;
+  box-shadow: 0 0 10px rgba($black, 0.5);
+  border-radius: 10px 10px 0 0;
+  transform: translateY(100vh);
+  will-change: transform;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: $white;
+  position: fixed;
+  bottom: 0;
+  height: 100vh;
+  width: 95%;
+  left: 2.5%;
+
+  .open-card & {
+    -webkit-overflow-scrolling: touch;
+    transform: translateY(5vh);
+    z-index: 2;
+    bottom: 0;
+  }
+
+  .list-item-image {
+    margin: $globalPadding -#{$globalPadding};
+    box-sizing: border-box;
+    height: auto;
+    width: 110%;
+  }
+
+  @include mq("tablet-wide", "min") {
+    max-width: 70%;
+  }
+
+  @include mq("desktop", "min") {
+    max-width: 50%;
+  }
+}
