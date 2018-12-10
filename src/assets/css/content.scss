@@ -40,9 +40,9 @@
 
 .list-all-items {
   flex-direction: column;
+  margin: 0 auto;
   display: flex;
   padding: 0;
-  margin: 0;
 
   .content-block-header {
     margin: 0 $globalPadding $globalPadding * 2;

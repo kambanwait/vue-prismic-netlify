@@ -3,12 +3,13 @@
 import Vue from "vue";
 import vueResource from "vue-resource";
 import PrismicVue from "prismic-vue";
+import "es6-promise/auto";
+import Vuex from "vuex";
+
 import App from "./App";
 
 Vue.config.productionTip = false;
-Vue.use(vueResource);
-// Add this before the new Vue instance
-Vue.use(PrismicVue, {
+Vue.use(vueResource, Vuex, PrismicVue, {
   endpoint: window.prismic.endpoint
 });
 
