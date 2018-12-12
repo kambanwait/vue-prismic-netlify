@@ -9,6 +9,8 @@
 
 <script>
 var PrismicDOM = require("prismic-dom");
+
+import store from "./store";
 import Intro from "./components/Intro";
 import ListAll from "./components/ListAll";
 import ListSingle from "./components/ListSingle";
@@ -23,6 +25,7 @@ export default {
     ListSingle,
     Footer
   },
+  store,
   data() {
     return {
       count: 0,

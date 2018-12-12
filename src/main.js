@@ -4,12 +4,12 @@ import Vue from "vue";
 import vueResource from "vue-resource";
 import PrismicVue from "prismic-vue";
 import "es6-promise/auto";
-import Vuex from "vuex";
 
 import App from "./App";
 
 Vue.config.productionTip = false;
-Vue.use(vueResource, Vuex, PrismicVue, {
+Vue.use(vueResource);
+Vue.use(PrismicVue, {
   endpoint: window.prismic.endpoint
 });
 

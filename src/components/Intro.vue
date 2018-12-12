@@ -58,6 +58,7 @@ export default {
   },
   beforeMount() {
     this.getContent();
+    // Access store in child componenents with "this.$store"
   }
 };
 </script>
